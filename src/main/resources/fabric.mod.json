@@ -3,15 +3,15 @@
 	"id": "mossy-mayhem",
 	"version": "${version}",
 	"name": "Mossy Mayhem",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "moss and stuff",
 	"authors": [
-		"Me!"
+		"starrflower"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/starrflower/mossy-mayhem/",
+		"sources": "https://github.com/starrflower/mossy-mayhem/"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/mossy-mayhem/icon.png",
 	"environment": "*",
 	"entrypoints": {
