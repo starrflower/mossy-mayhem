@@ -2,6 +2,7 @@ package net.starrch.mossymayhem;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.starrch.mossymayhem.block.ModBlocks;
 import net.starrch.mossymayhem.creativemovetab.ModCreativeModeTabs;
 import net.starrch.mossymayhem.item.ModItems;
 import org.slf4j.Logger;
@@ -20,6 +21,7 @@ public class MossyMayhem implements ModInitializer {
 		MossyMayhem.LOGGER.info("Initializing " + MossyMayhem.MOD_ID);
 
 		ModCreativeModeTabs.registerModCreativeModeTabs();
+		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 
 	}
