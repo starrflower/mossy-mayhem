@@ -7,11 +7,13 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
 import net.starrch.mossymayhem.MossyMayhem;
+import net.starrch.mossymayhem.food.ModFoods;
 
 import java.util.function.Function;
 
 public class ModItems {
-    public static final Item MOSS_CLUMP = registerItem("moss_clump", Item::new);
+    public static final Item MOSS_CLUMP = registerItem("moss_clump", properties -> new Item(properties.
+            food(ModFoods.MOSS, ModFoods.MOSS_CONSUMABLE)));
     public static final Item DRIED_MOSS_CLUMP = registerItem("dried_moss_clump", Item::new);
 
 
