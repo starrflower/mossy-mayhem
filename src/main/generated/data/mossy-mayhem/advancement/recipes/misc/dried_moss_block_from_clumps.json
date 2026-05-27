@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dried_moss_clump": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mossy-mayhem:dried_moss_clump"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mossy-mayhem:dried_moss_block_from_clumps"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dried_moss_clump"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mossy-mayhem:dried_moss_block_from_clumps"
+    ]
+  }
+}

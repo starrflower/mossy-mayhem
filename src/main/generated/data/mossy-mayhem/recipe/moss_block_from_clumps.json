@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "moss_block",
+  "key": {
+    "R": "mossy-mayhem:moss_clump"
+  },
+  "pattern": [
+    "RR",
+    "RR"
+  ],
+  "result": {
+    "id": "minecraft:moss_block"
+  }
+}

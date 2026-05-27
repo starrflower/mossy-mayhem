@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "moss_clump",
+  "ingredients": [
+    "mossy-mayhem:dried_moss_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "mossy-mayhem:dried_moss_clump"
+  }
+}
