@@ -17,7 +17,7 @@ import java.util.function.Function;
 public class ModBlocks {
     public static final Block DRIED_MOSS_BLOCK = registerBlock("dried_moss_block",
             properties -> new Block(properties.strength(0.1F)
-                    .requiresCorrectToolForDrops().sound(SoundType.MOSS)));
+                    .sound(SoundType.MOSS)));
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {
         Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(MossyMayhem.MOD_ID, name))));
