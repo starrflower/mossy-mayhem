@@ -8,7 +8,7 @@ import net.minecraft.world.item.component.Consumables;
 import net.minecraft.world.item.consume_effects.ApplyStatusEffectsConsumeEffect;
 
 public class ModFoods {
-    public static final FoodProperties MOSS = new FoodProperties.Builder().nutrition(3).saturationModifier(0.25f).build();
+    public static final FoodProperties MOSS = new FoodProperties.Builder().nutrition(0).saturationModifier(2f).alwaysEdible().build();
 
     public static final Consumable MOSS_CONSUMABLE = Consumables.defaultFood()
             .consumeSeconds(1f).onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 999), 1f)).build();
