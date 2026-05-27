@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.0,
+  "group": "moss",
+  "ingredient": "mossy-mayhem:moss_clump",
+  "result": {
+    "id": "mossy-mayhem:dried_moss_block"
+  }
+}

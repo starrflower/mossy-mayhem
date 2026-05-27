@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.starrch.mossymayhem.datagen.ModBlockLootTableProvider;
 import net.starrch.mossymayhem.datagen.ModBlocksTagsProvider;
 import net.starrch.mossymayhem.datagen.ModModelProvider;
+import net.starrch.mossymayhem.datagen.ModRecipeProvider;
 
 public class MossyMayhemDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -14,5 +15,6 @@ public class MossyMayhemDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModBlocksTagsProvider::new);
 		pack.addProvider(ModBlockLootTableProvider::new);
+		pack.addProvider(ModRecipeProvider::new);
 	}
 }
