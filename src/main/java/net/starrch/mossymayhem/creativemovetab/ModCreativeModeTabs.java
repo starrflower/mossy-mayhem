@@ -8,6 +8,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.starrch.mossymayhem.MossyMayhem;
+import net.starrch.mossymayhem.block.ModBlocks;
 import net.starrch.mossymayhem.item.ModItems;
 
 public class ModCreativeModeTabs {
@@ -24,12 +25,12 @@ public class ModCreativeModeTabs {
 
     public static final CreativeModeTab MOSS_BLOCK_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
             Identifier.fromNamespaceAndPath(MossyMayhem.MOD_ID, "moss_items_blocks"),
-            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MOSS_CLUMP))
+            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.DRIED_MOSS_BLOCK))
                     .title(Component.translatable("creativemodtab.mossymayhem.moss_blocks"))
                     .displayItems((parameters, output) -> {
 
                         // items in tab
-                        output.accept(ModItems.MOSS_CLUMP);
+                        output.accept(ModBlocks.DRIED_MOSS_BLOCK);
 
                     }).build());
 

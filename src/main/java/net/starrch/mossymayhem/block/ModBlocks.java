@@ -15,7 +15,7 @@ import net.starrch.mossymayhem.MossyMayhem;
 import java.util.function.Function;
 
 public class ModBlocks {
-    public static final Block DRIED_MOSS = registerBlock("dried_moss",
+    public static final Block DRIED_MOSS_BLOCK = registerBlock("dried_moss_block",
             properties -> new Block(properties.strength(0.1F)
                     .requiresCorrectToolForDrops().sound(SoundType.MOSS)));
 
