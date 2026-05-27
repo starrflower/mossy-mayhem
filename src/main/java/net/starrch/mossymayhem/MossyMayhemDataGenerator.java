@@ -2,6 +2,8 @@ package net.starrch.mossymayhem;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.starrch.mossymayhem.datagen.ModBlockLootTableProvider;
+import net.starrch.mossymayhem.datagen.ModBlocksTagsProvider;
 import net.starrch.mossymayhem.datagen.ModModelProvider;
 
 public class MossyMayhemDataGenerator implements DataGeneratorEntrypoint {
@@ -10,5 +12,7 @@ public class MossyMayhemDataGenerator implements DataGeneratorEntrypoint {
 		var pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModBlocksTagsProvider::new);
+		pack.addProvider(ModBlockLootTableProvider::new);
 	}
 }
