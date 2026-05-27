@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "mossy-mayhem:dried_moss_block_from_smelting_moss_clump"
+        "recipe": "mossy-mayhem:dried_moss_clump_from_smelting_moss_clump"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "mossy-mayhem:dried_moss_block_from_smelting_moss_clump"
+      "mossy-mayhem:dried_moss_clump_from_smelting_moss_clump"
     ]
   }
 }

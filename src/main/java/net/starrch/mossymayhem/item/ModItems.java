@@ -12,6 +12,7 @@ import java.util.function.Function;
 
 public class ModItems {
     public static final Item MOSS_CLUMP = registerItem("moss_clump", Item::new);
+    public static final Item DRIED_MOSS_CLUMP = registerItem("dried_moss_clump", Item::new);
 
 
 

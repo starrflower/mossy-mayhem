@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mossy-mayhem:item/dried_moss_clump"
+  }
+}

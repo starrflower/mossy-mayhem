@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
 
                         // items in tab
                         output.accept(ModItems.MOSS_CLUMP);
+                        output.accept(ModItems.DRIED_MOSS_CLUMP);
 
                     }).build());
 

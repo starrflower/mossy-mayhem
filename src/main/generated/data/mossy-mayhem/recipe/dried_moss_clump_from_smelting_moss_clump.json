@@ -6,6 +6,6 @@
   "group": "moss",
   "ingredient": "mossy-mayhem:moss_clump",
   "result": {
-    "id": "mossy-mayhem:dried_moss_block"
+    "id": "mossy-mayhem:dried_moss_clump"
   }
 }

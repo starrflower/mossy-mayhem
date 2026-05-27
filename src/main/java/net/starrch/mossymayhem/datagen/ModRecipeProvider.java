@@ -7,11 +7,7 @@ import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.world.item.crafting.CookingBookCategory;
-import net.minecraft.world.item.crafting.Recipe;
-import net.minecraft.world.item.crafting.SmokingRecipe;
 import net.minecraft.world.level.ItemLike;
-import net.minecraft.world.level.block.Blocks;
-import net.starrch.mossymayhem.block.ModBlocks;
 import net.starrch.mossymayhem.item.ModItems;
 
 import java.util.List;
@@ -29,7 +25,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             public void buildRecipes() {
                 List<ItemLike> MOSS_SMELTABLES = List.of(ModItems.MOSS_CLUMP);
 
-                oreSmelting(MOSS_SMELTABLES, RecipeCategory.FOOD, CookingBookCategory.FOOD, ModBlocks.DRIED_MOSS_BLOCK, 0.0F, 200, "moss");
+                oreSmelting(MOSS_SMELTABLES, RecipeCategory.FOOD, CookingBookCategory.FOOD, ModItems.DRIED_MOSS_CLUMP, 0.0F, 200, "moss");
 
 
 
