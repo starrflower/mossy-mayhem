@@ -1,5 +1,11 @@
 {
   "item.mossy-mayhem.moss_clump": "Moss Clump",
+
+  "block.mossy-mayhem.dried_moss_block": "Dried Moss Block",
+
+
+
+
   "creativemodtab.mossymayhem.moss_items": "Moss Items",
   "creativemodtab.mossymayhem.moss_blocks": "Moss Blocks"
 }
