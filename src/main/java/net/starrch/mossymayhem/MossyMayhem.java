@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.starrch.mossymayhem.block.ModBlocks;
 import net.starrch.mossymayhem.creativemovetab.ModCreativeModeTabs;
 import net.starrch.mossymayhem.item.ModItems;
+import net.starrch.mossymayhem.registries.ModFuels;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,6 +24,7 @@ public class MossyMayhem implements ModInitializer {
 		ModCreativeModeTabs.registerModCreativeModeTabs();
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
+		ModFuels.registerFuels();
 
 	}
 }
